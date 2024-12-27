@@ -1,0 +1,179 @@
+:: StoryTitle
+практика
+
+
+:: StoryData
+{
+  "ifid": "2740EE6F-85F1-4E5F-ACA9-62AD2F9DF958",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "0",
+  "zoom": 1
+}
+
+
+:: 0 {"position":"850,350","size":"100,100"}
+(align:"=><=")+(box:"XXXXX=")[''Один день из практики'']
+||=
+История о том как я проходил практику 
+
+ 
+ Первый день был ознакомительный.
+  Я познакомился с коллективом и куратором, после знакомства мне провели экскурсию по всему комплексу, позже мне показали мое рабочее место. 
+
+||=
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/33_full.jpg?raw=true" width=600" height="400">
+
+|=|
+(text-colour:orange)[[далее|1]]
+
+
+:: 1 {"position":"850,475","size":"100,100"}
+На следуйщий день я приехал на на свою "работу" но меня не пропустили .
+Я уже собирался домой но меня остановил мой куратор... он меня поргугал и отвел к своим коллегам чтобы они сделали мне пропуск
+
+
+||=
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/2024-12-27_03-08-52.png?raw=true" width=600" height="400">
+
+|=|
+(text-colour:orange)[[далее|2]]
+
+
+:: 2 {"position":"850,600","size":"100,100"}
+После всего этого я пошел в свой супер кабинет и начал составлять план выполнения работ заданной на производственную практику 
+
+||=
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/AQAKZxFT1UjnXMI2Z0Jz8d8VvGMZf952m9-dZ_oIjc-Q6m7q8CkCQTkK_GQCwO4C2l9gHu9Dxg7Qf9QH1NoRRhNxsIA.jpg?raw=true" width=600" height="400">
+
+|=|
+(text-colour:orange)[[далее|3]]
+
+
+:: 3 {"position":"850,725","size":"100,100"}
+после раздумий я начал делать сайт.
+я создал 6 файлов :
+index.html
+projects.html
+ocentre.html
+contact.html
+styles.css
+script.js
+ 
+ после все сделанной тяжкой работы я уснул...
+ 
+ После сладкогосна мне стало скучно и я стал проявлять свою комуникабильность,
+ я общялся со всеми скем только можно было .
+ А после этого я поехал домой.
+
+||=
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/e0dc0581a9e244cb8d12e2f9958c219e.png?raw=true" width=600" height="400">
+
+|=|
+(text-colour:orange)[[далее|4]]
+
+
+:: 4 {"position":"850,850","size":"100,100"}
+На следуйщий я приехал на "работу" зашел в ссвой кабинет и начал писать кодs для сайта и так последуйщие дни
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/u_coaEMcvj4.jpg?raw=true" width=800" height="500">
+|=
+(b4r:"inset")+(b4r-colour:black)[[''index.html''|4.4]]
+|=
+(b4r:"inset")+(b4r-colour:black)[[''projects.html''|4.5]]
+|=
+(b4r:"inset")+(b4r-colour:black)[[''contact.html''|4.6]]
+|=
+(b4r:"inset")+(b4r-colour:black)[[''ocentre.html''|4.7]]
+|=
+(b4r:"inset")+(b4r-colour:black)[[''styles.css''|4.8]]
+|=
+(b4r:"inset")+(b4r-colour:black)[[''script.js''|4.9]]
+|=|
+(text-colour:orange)[[далее|5]]
+
+
+
+
+:: 4.4 {"position":"475,925","size":"100,100"}
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/index.png?raw=true" width=800" height="500">
+
+
+
+
+
+:: 4.5 {"position":"625,975","size":"100,100"}
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/project.png?raw=true" width=800" height="500">
+
+
+
+
+
+:: 4.6 {"position":"775,1000","size":"100,100"}
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/aaaaaaaaaaa.png?raw=true" width=800" height="500">
+
+
+
+
+
+:: 4.7 {"position":"925,1000","size":"100,100"}
+
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/image.png?raw=true" width=800" height="500">
+
+
+
+
+:: 4.8 {"position":"1075,975","size":"100,100"}
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/css.png?raw=true" width=800" height="500">
+
+
+
+
+
+:: 4.9 {"position":"1225,950","size":"100,100"}
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/js.png?raw=true" width=800" height="500">
+
+
+
+
+
+
+:: 5 {"position":"850,1225","size":"100,100"}
+после всех махинаций у меня получилось создать сайт
+
+||=
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/site.png?raw=true" width=800" height="500">
+
+|=|
+(text-colour:orange)[[далее|6]]
+
+
+:: 6 {"position":"875,1425","size":"100,100"}
+Затем мне необходимо было где-то выложить свою работу,
+мой выбор пал на сайт с бесплатными доменами - BEGET
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/baget.png?raw=true" width="1000" height="500">
+
+(text-colour:blue)[[далее|7]]
+
+
+:: 7 {"position":"875,1550","size":"100,100"}
+зарегистрировавшись на сайте я загрузил файлы и связал их с полученным доменом
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/baget1.png?raw=true" width="1000" height="500">
+
+таким образом я смог опубликовать свой сайт.
+
+на этом все
+
+(text-colour:blue)[[далее|итог]]
+
+
+:: итог {"position":"875,1675","size":"100,100"}
+В процессе прохождения практики я приобрел обширные знания и значительно расширил свои профессиональные коммуникации. Это был не только период интенсивного обучения, но и время, когда я смог проявить свои умения и навыки. 
+
+<img src="https://github.com/lonelyy228/sessiy_228/blob/main/od.jpg?raw=true" width="1000" height="700">
+
+(text-colour:blue)[[вернуться в начало|0]]
