@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="header-container">
+            <img src="c:\Users\User\Downloads\text.png" alt="Логотип" class="logo">
+            <nav>
+                <div class="nav-group">
+                    <ul class="nav-list">
+                        <li><button onclick="location.href='index.html'">Главная</button></li>
+                        <li><button onclick="location.href='konkurs.html'">Конкурсы</button></li>
+                        <li><button onclick="location.href='onas.html'">О нас</button></li>
+                        <li><button onclick="location.href='contact.html'">Контакты</button></li>
+                        <li><button id="account-button" onclick="location.href='licniykabinet.html'">Личный кабинет</button></li>
+                    </ul>
+                </div>
+                <div class="auth-group">
+                    <button id="register-button" onclick="location.href='registraciy.html'">Регистрация</button>
+                    <button onclick="location.href='vhod.html'">Вход</button>
+                </div>
+            </nav>
+            <button id="theme-toggle" title="Светлая тема">
+                <i class="fas fa-sun"></i> 
+            </button>
+        </div>
+    </header>
+    
+
+    <main>
+        <h1>Личный кабинет</h1>
+        
+        <div class="account-info">
+            <h2>Информация о пользователе</h2>
+            <p><strong>Email:</strong> user@example.com</p>
+            <p><strong>Имя:</strong> Иван</p>
+            <p><strong>Фамилия:</strong> Иванов</p>
+            <p><strong>Возраст:</strong> 30</p>
+            <p><strong>Пол:</strong> Мужской</p>
+        </div>
+
+        <div class="update-form">
+            <h2>Изменить данные</h2>
+            <form>
+                <label for="new-email">Новый Email:</label>
+                <input type="email" id="new-email" placeholder="Введите новый Email">
+
+                <label for="new-password">Новый Пароль:</label>
+                <input type="password" id="new-password" placeholder="Введите новый Пароль">
+
+                <label for="confirm-password">Подтвердите Пароль:</label>
+                <input type="password" id="confirm-password" placeholder="Подтвердите новый Пароль">
+
+                <button type="submit">Сохранить изменения</button>
+            </form>
+        </div>
+
+        <div class="logout">
+            <button onclick="location.href='logout.html'">Выйти из аккаунта</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Телефон: <a href="tel:+74842234567">+7 (4842) 23-45-67</a></p>
+        <p>Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a></p>
+        <button onclick="location.href='index.html'">На главную</button>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

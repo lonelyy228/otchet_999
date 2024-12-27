@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Увеличиваем межстрочный интервал */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход для темы */
+}
+/* Темная и Светлая темы */
+.dark-theme {
+    background-color: #000000;
+    color: #000000; /* Цвет текста в темной теме */
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000; /* Цвет текста в светлой теме */
+}
+
+/* Заголовки и Футеры */
+header, footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход для фона и цвета */
+}
+/* Фоновый цвет для светлой темы в заголовке и подвале */
+header.light-theme, 
+footer.light-theme {
+    background-color: #f8f8f8;
+    color: #000; /* Цвет текста для светлой темы */
+}
+/* Прочие стили для текста */
+h1, h2, p, a {
+    transition: color 0.3s; /* Плавный переход для цвета текста */
+}
+
+
+
+/* Навигационное меню */
+nav {
+    flex-grow: 1; /* Позволяем навигации занимать доступное пространство */
+    display: flex; /* Используем flexbox для размещения кнопок */
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Используем flexbox для размещения элементов в линию */
+    padding: 0;
+    margin: 0;
+}
+
+/* Стиль для каждого элемента списка */
+nav ul li {
+    margin: 0 25px; /* Отступы между кнопками */
+}
+
+/* Группа авторизации */
+/* Группа авторизации */
+.auth-group {
+    display: flex; /* Используем flexbox */
+    flex-direction: column; /* Вертикальное размещение кнопок авторизации */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    margin-left: 20px; /* Отступ между группами кнопок */
+}
+
+.auth-group button {
+    margin-top: 10px; /* Добавляем отступ сверху для кнопки "Вход" */
+}
+
+
+/* Стили для авторизационных кнопок */
+.auth-buttons {
+    display: flex; /* Используем flexbox для горизонтального размещения кнопок */
+    gap: 10px; /* Пробел между кнопками */
+}
+
+/* Кнопки */
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавный переход для кнопок */
+    border-radius: 5px; /* Края кнопок по закруглению */
+}
+
+
+button:hover {
+    background-color: #777; /* Фон кнопки при наведении */
+}
+
+button:focus {
+    outline: none; /* Убираем обводку при фокусе */
+}
+
+/* Заголовок и навигация */
+.header-container {
+    display: flex; /* Используем flexbox для размещения элементов в линию */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    padding: 20px; /* Отступы для удобства */
+}
+/* Логотип */
+.logo {
+    max-width: 150px; /* Максимальная ширина логотипа */
+    margin-right: 20px; /* Отступ между логотипом и навигацией */
+}
+
+/* Основной контент */
+main {
+    padding: 20px; /* Добавляем отступы на основной контент */
+    max-width: 400px; /* Ограничиваем максимальную ширину контента */
+    margin: auto; /* Центрирование контента */
+    border-radius: 8px; /* Скругление углов */
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный фон для контента */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для глубины */
+    display: flex; /* Используем flexbox */
+    flex-direction: column; /* Вертикальное размещение */
+    align-items: center; /* Центрируем элементы по горизонтали */
+}
+
+
+/* Стили для формы */
+form {
+    width: 100%; /* Ширина формы занимает весь доступный контейнер */
+}
+
+/* Секции на странице */
+section {
+    margin: 20px 0;
+}
+
+/* Формы */
+section form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Поля формы */
+section form input, 
+section form select {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Закругленные углы полей ввода */
+    border: 1px solid #ccc; /* Обводка поля ввода */
+    width: calc(100% - 20px); /* Ширина полей с учетом отступов */
+}
+
+/* Подвал */
+footer {
+    margin-top: 20px; /* Отступ сверху в подвале */
+    padding: 15px; /* Отступ внутри подвала */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+}
+
+/* Новый стиль для кнопки темы со значком */
+#theme-toggle {
+    position: fixed; /* Позиционирование фиксированное для отображения на всех страницах */
+    top: 20px; /* Отступ сверху */
+    right: 20px; /* Отступ справа */
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Без рамки */
+    cursor: pointer; /* Курсор как указатель */
+    font-size: 24px; /* Размер иконки */
+    color: #fff; /* Цвет иконки в темной теме */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+/* Изменение цвета иконки для светлой темы */
+.light-theme #theme-toggle {
+    color: #333; /* Цвет иконки в светлой теме */
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+}
+/* Ссылки */
+a {
+    color: #1E90FF; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание ссылки при наведении */
+}
+
+/* Основные стили для страницы входа */
+.main-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+    height: calc(100vh - 160px); /* Высота видимой части минус высота заголовка и подвала */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный фон */
+    border-radius: 15px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри контейнера */
+    max-width: 400px; /* Максимальная ширина */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для глубины */
+}
+
+h2 {
+    text-align: center; /* Центрируем заголовок */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Вертикальное размещение элементов */
+}
+
+form label {
+    margin-top: 15px; /* Отступы между меткой и полем ввода */
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px; /* Закругленные углы полей ввода */
+    border: 1px solid #ccc; /* Обводка поля ввода */
+}
+
+form button {
+    margin-top: 20px; /* Отступ над кнопкой */
+    background-color: #555; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без обводки */
+    padding: 10px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Курсор как указатель */
+    transition: background-color 0.3s; /* Плавный переход фона кнопки */
+}
+
+form button:hover {
+    background-color: #777; /* Изменение цвета фона кнопки при наведении */
+}
+
+/* Новый стиль для кнопки темы в виде круглого значка */
+#theme-toggle {
+    position: fixed; /* Позиционирование фиксированное для отображения на всех страницах */
+    top: 20px; /* Отступ сверху */
+    right: 20px; /* Отступ справа */
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+    border: none; /* Без рамки */
+    border-radius: 50%; /* Круглая форма */
+    cursor: pointer; /* Курсор как указатель */
+    font-size: 18px; /* Размер иконки */
+    width: 40px; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    display: flex; /* Используем flexbox для центрирования иконки */
+    align-items: center; /* Центрируем вертикально */
+    justify-content: center; /* Центрируем горизонтально */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Тень для глубины */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход для фона и цвета */
+}
+
+/* Изменение цвета фона и иконки для светлой темы */
+.light-theme #theme-toggle {
+    background-color: rgba(0, 0, 0, 0.1); /* Прозрачный черный фон */
+    color: #333; /* Цвет иконки в светлой теме */
+}
+
+/* Цвет иконки в темной теме */
+.dark-theme #theme-toggle {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    color: #fff; /* Цвет иконки в темной теме */
+}
+
+#theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Увеличение контраста при наведении */
+}
