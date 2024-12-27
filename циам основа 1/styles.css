@@ -1,0 +1,400 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Задайт ширину логотипа */
+    height: auto; /* Автоматически сохранять пропорции */
+    margin-right: 20px; /* Отступ справа от логотипа */
+}
+
+    nav {
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+
+nav a{
+    margin: 60px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #004080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.slider {
+    position: relative;
+    max-width: 1300px; /* Устанавливаем максимальную ширину слайдера */
+    overflow: hidden;
+    margin: 20px auto; /* Центрируем слайдер по горизонтали */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%; /* Ширина каждого слайда */
+    height: 400px; /* Фиксированная высота слайда (измените на желаемую) */
+    flex-shrink: 0; /* Не уменьшать ширину */
+    max-height: 600px; /* Максимальная высота слайда (можно увеличить) */
+    background-color: #ccc; /* Цвет фона для наглядности */
+    text-align: center; /* Центрирование текста */
+    line-height: 400px; /* Центрирование текста по вертикали, соответствует высоте слайда */
+    font-size: 24px; /* Размер шрифта */
+}
+
+
+.content {
+    display: flex; /* Используем Flexbox для создания двух колонок */
+    margin-top: 20px;
+}
+
+.info {
+    flex: 1; /* Первая колонка занимает 1 часть */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Отступ справа для колонки с информацией */
+}
+/*.info :hover {
+    padding-bottom: 60px;     хочу чтоб ячейка с инфой расширялась и показывалась доп инфа ---- и с фотками также и плюс листались
+}
+*/ 
+.main-photo-container {
+    flex: 1; /* Вторая колонка занимает 1 часть */
+    text-align: center; /* Центрирование главной фотографии */
+}
+
+.main-photo {
+    width: 100%; /* Ширина основной фотографии */
+    height: auto; /* Сохранение пропорций */
+}
+
+.photos {
+    margin-top: 20px; /* Отступ сверху */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-row {
+    display: flex; /* Используем Flexbox для размещения фотографий в ряд */
+    justify-content: space-between; /* Равномерное распределение фотографий */
+}
+
+.photo-container {
+    flex: 1; /* Каждая фотография занимает равную ширину */
+    margin: 0 10px; /* Отступы между контейнерами фотографий */
+   /* text-align: center; Центрирование текста под фотографиями */
+}
+
+.photo-container img {
+    width: 100%; /* Ширина фотографии */
+    height: auto; /* Сохранение пропорций */
+}
+.photo-row img {
+    width: 100%; /* Устанавливаем ширину для каждой фотографии в ряду  */
+    height: auto; /* Сохраняем пропорции */
+}
+.caption {
+    font-size: 12px; /* Уменьшите значение для уменьшения текста */
+    color: #555; /* Цвет текста */
+    line-height: 1.5; /* Межстрочный интервал */
+}
+
+
+footer {
+    margin-top: 20px; /* Отступ сверху */
+    text-align: center; /* Центрирование текста в футере */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    margin-bottom: 20px; /*  расстояение между высшей инфы все права защещены */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 0.9em; /* Увеличен размер шрифта заголовка около лого*/
+}
+
+h2 {
+    font-size: 1.8em; /* Увеличен размер шрифта заголовка секции */
+    margin-top: 30px; /* Увеличен отступ сверху */
+}
+.project h3 {
+    margin: 40px 0 20px; /* Увеличен отступ сверху и снизу для заголовков проектов */
+    text-align: center; /* Выравнивание заголовка по центру */
+}
+
+.projects-content {
+    margin-top: 30px; /* Увеличен отступ сверху для секции проектов */
+}
+
+.project {
+    margin-bottom: 60px; /* Увеличен отступ между проектами */
+}
+
+.project-details {
+    display: flex; /* Используем Flexbox для размещения текста и фотографии рядом */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+
+.project-text {
+    flex: 1; /* Текстовая колонка занимает 1 часть */
+    padding: 30px; /* Увеличены отступы вокруг текста */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-right: 30px; /* Отступ справа от текстовой колонки */
+}
+
+.project-photo {
+    flex: 1; /* Фото колонка занимает 1 часть */
+    
+}
+
+.project-photo img {
+    width: 80%; /* Фотографии занимают всю ширину своего контейнера */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 8px; /* Закругляем углы фотографии */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px; /* Увеличен отступ сверху для футера */
+    color: #777;
+    padding: 20px; /* Увеличены отступы в футере */
+
+}
+
+.ocentre-details {
+    margin-top: 20px; /* Меньший отступ сверху для деталей */
+    background-color: #ffffff; /* Фоновый цвет блока */
+    border-radius: 8px; /* Закругление углов блока */
+    padding: 20px; /* Внутренние отступы блока */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тень для блока */
+}
+
+.ocentre-details h3 {
+    color: #004080; /* Цвет заголовков */
+}
+
+.ocentre-details p {
+    margin: 20px ; /* Отступы между параграфами */
+    line-height: 1.6; /* Высота строки для улучшения читабельности */
+}
+
+.ocentre-details ul {
+    margin: 10px 0; /* Отступы для списков */
+    padding-left: 20px; /* Отступ для маркеров списка */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px; /* Отступ сверху для подвала */
+}
+
+.contact-details1, .contact-details2 {
+    margin-top: 20px; /* Меньший отступ сверху для деталей */
+    background-color: #ffffff; /* Фоновый цвет блока */
+    border-radius: 8px; /* Закругление углов блока */
+    padding: 20px; /* Внутренние отступы блока */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тень для блока */
+}
+
+.contact-details1 h3, .contact-details2 h3 {
+    color: #004080; /* Цвет заголовков */
+}
+
+.location-details {
+    margin-top: 30px; /* Отступ сверху для блока местоположения */
+
+}
+
+.location-details h3 {
+    color: #004080; /* Цвет заголовка */
+}
+
+.map-container {
+    margin-top: 20px; /* Отступ сверху для карты */
+    text-align: center; /* Выравниваем карту по центру */
+}
+
+
+.practice-section {
+    padding: 20px; /* Внутренние отступы */
+    background-color: #f9f9f9; /* Цвет фона для выделения */
+    border-radius: 5px; /* Сглаживание углов */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.practice-section h2 {
+    color: #004080; /* Цвет заголовка */
+}
+
+.contact-content {
+    display: flex; /* Flexbox для размещения фото и информации в ряд */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    margin-top: 30px; /* Отступ сверху для раздела контактов */
+}
+
+.contact-content {
+    display: flex; /* Устанавливаем флекс-контейнер */
+    align-items: center; /* Центрирование по вертикали */
+    margin-bottom: 20px; /* Отступ между контактами */
+}
+
+.contact-photo {
+    flex: 1; /* Фотография занимает 1 часть */
+    display: flex; /* Устанавливаем флекс-контейнер для выравнивания изображения */
+    justify-content: center; /* Центрирование по горизонтали */
+    padding-right: 20px; /* Отступ справа для визуального разделения */
+}
+
+.contact-photo img {
+    width: 40%; /* Фотография занимает 40% ширины своего контейнера */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 8px; /* Закругление углов */
+}
+.contact-info {
+    flex: 2; /* Информация занимает 2 части */
+    padding-left: 20px; /* Отступ слева для визуального разделения */
+    background-color: #ffffff; /* Фоновый цвет для блока с информацией */
+    border-radius: 8px; /* Закругление углов */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тень для блока */
+}
+
+.contact-info h3 {
+    margin: 0; /* Убрать отступы для заголовка */
+}
+
+.contact-info p {
+    margin: 10px 0; /* Отступы между параграфами */
+}
+
+.overlay {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 5; /* Размещаем наложение внизу */
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); /* Полупрозрачный чёрный фон */
+    color: white; /* Цвет текста */
+    text-align: center; /* Центрируем текст */
+    padding: 10px; /* Отступы для текста в наложении */
+    border-radius: 0 0 8px 8px; /* Закругляем нижние углы */
+}
+
+
+footer {
+    background-color: #192e48; /* Цвет фона подвала */
+    color: white; /* Цвет текста подвала */
+    padding: 20px; /* Внутренние отступы */
+    display: flex; /* Используем флекс для позиционирования элементов */
+    justify-content: space-between; /* Распределение элементов по ширине */
+    align-items: center; /* Центрирование по вертикали */
+    width: 97%; /* Ширина подвала */
+}
+
+.footer-content {
+    display: flex; /* Используем флекс для размещения элементов в подвале */
+    justify-content: space-between; /* Распределение элементов по ширине */
+    align-items: center; /* Центрирование по вертикали */
+    max-width: 1100px; /* Максимальная ширина подвала */
+    margin: 0 auto; /* Центрирование блока */
+    width: 100%; /* Занимает всю ширину */
+}
+
+.footer-logo img {
+    max-width: 100%; /* Адаптивность для логотипа */
+    height: auto; /* Сохранение пропорций логотипа */
+    margin-right: 20px; /* Отступ справа */
+}
+
+.footer-text {
+    text-align: center; /* Центрирование текста */
+    flex-grow: 1; /* Занимает оставшееся пространство */
+}
+
+.footer-social {
+    display: flex; /* Используем флекс для размещения иконок соцсетей */
+    gap: 10px; /* Отступы между иконками */
+}
+
+.footer-social img {
+    width: 24px; /* Ширина иконок соцсетей */
+    height: auto; /* Сохранение пропорций иконок */
+    transition: transform 0.3s; /* Анимация для эффекта при наведении */
+}
+
+.footer-social img:hover {
+    transform: scale(1.1); /* Увеличиваем иконку при наведении */
+}
+
